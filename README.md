@@ -12,9 +12,9 @@ classDiagram
     -Nome: String
     -Cpf: String
     -Birthday: Date
-    -Adress: Adress
+    -Address: Adress
   }
-   class Adress{
+   class Address{
     -Street: String
     -NumberHouse: Integer
     -ZipCode: Integer
@@ -29,5 +29,5 @@ classDiagram
   }
 
   Interested "1..*" -- "1" Pets
-  Interested "1" -- "1" Adress
+  Interested "1" -- "1" Address
 ```
